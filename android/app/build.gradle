@@ -129,13 +129,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.chat"
+        applicationId "com.batepapo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }
-
+    
     signingConfigs {
         release {
             if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
@@ -172,7 +172,7 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-             signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
         }
     }
 

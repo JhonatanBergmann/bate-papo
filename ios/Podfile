@@ -3,14 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Chat' do
+target 'BatePapo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
-
-  target 'ChatTests' do
+  target 'BatePapoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -25,10 +23,10 @@ target 'Chat' do
   end
 end
 
-target 'Chat-tvOS' do
-  # Pods for Chat-tvOS
+target 'BatePapo-tvOS' do
+  # Pods for BatePapo-tvOS
 
-  target 'Chat-tvOSTests' do
+  target 'BatePapo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

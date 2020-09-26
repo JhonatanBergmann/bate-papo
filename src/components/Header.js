@@ -34,7 +34,7 @@ class Header extends Component {
                              <View style={styles.headerModal}>
                                 <Text style={styles.text}>Não é permitido:</Text>
                                 <TouchableOpacity style={{margin: 10}} onPress={() => this.setState({isVisible: false})}>
-                                     <Icon name='times-circle-o' size={25} color={'#E8E0E0'} />
+                                     <Icon name='times-circle-o' size={25} color={'#E8E0E0'} style={{marginRight: 10}} />
                                  </TouchableOpacity>
                              </View>
                             <Text style={styles.text}>

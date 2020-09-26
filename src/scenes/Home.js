@@ -5,6 +5,7 @@ import {
   View, 
   Text
 } from 'react-native'
+import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 import backgroudImage from '../../assets/imgs/backgroud.png'
 import commonStyles from '../commonStyles'
@@ -33,10 +34,10 @@ const styles = StyleSheet.create({
       flex: 1
      },
      container: {
-      marginTop: 50
+      marginTop: hp('5%')
      }, 
      description: {
-      fontSize: 20,
+      fontSize: hp('3%'),
       color: '#E8E0E0',
       fontFamily: commonStyles.fontFamily,
       textAlign: 'center',

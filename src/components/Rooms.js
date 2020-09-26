@@ -8,6 +8,7 @@ import {
     View 
 } from 'react-native'
 import { Actions } from 'react-native-router-flux'
+import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 import commonStyles from '../commonStyles'
 import Icon from 'react-native-vector-icons/FontAwesome'
@@ -68,24 +69,24 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         //opacity: 0.5,
         backgroundColor: 'rgba(0,0,0,0.5)',
-        margin: 20,
-        marginTop: 20,
-        maxHeight: 500,
+        margin: hp('3%'),
+        marginTop: hp('3%'),
+        maxHeight: hp('69%'),
         borderRadius: 10,
     },
     button: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        height: 100,
+        height: hp('13.5%'),
         borderTopWidth: 10,
         borderColor: 'rgba(0,0,0,0.2)'
     },
     title: {
         alignSelf: 'center',
-        fontSize: 20,
+        fontSize: hp('3%'),
         fontFamily: commonStyles.fontFamily,
-        margin: 5,
+        margin: hp('1%'),
         color: '#E8E0E0'
     },
     img: {

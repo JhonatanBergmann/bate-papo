@@ -8,6 +8,7 @@ import {
     Text
 } from 'react-native'
 import { Actions } from 'react-native-router-flux'
+import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 import commonStyles from '../commonStyles'
 
@@ -64,12 +65,12 @@ const styles = StyleSheet.create({
     button: {
         flexDirection: 'row',
         alignItems: 'center',
-        height: 150,
+        height: hp('20%'),
         borderColor: 'rgba(0,0,0,0.2)'
     },
     title: {
         alignSelf: 'flex-end',
-        fontSize: 20,
+        fontSize: hp('3%'),
         fontFamily: commonStyles.fontFamily,
         margin: 5,
         color: '#E8E0E0'

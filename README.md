@@ -19,6 +19,8 @@
 - [react-native-screens](https://github.com/software-mansion/react-native-screens)
 - [react-native-responsive-screen](https://www.npmjs.com/package/react-native-responsive-screen)
 
+## > Status do Projeto: Em desenvolvimento :warning:
+...
 
 ## 📱 Executando 
 

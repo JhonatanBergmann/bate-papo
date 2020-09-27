@@ -1,7 +1,9 @@
 <h1 align="center">
   <img src="android/app/src/main/res/drawable/iconsplash.png" width="200" height="200" alt="icon" >
   <br>
-  💬Bate-Papo
+  Bate-Papo
+  <br>
+  💬
   <br>
 </h1>
 

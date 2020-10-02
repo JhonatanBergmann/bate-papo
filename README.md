@@ -10,6 +10,13 @@
 <br>
 
 <p align="center">
+<img alt="GitHub Package.json Version" src="https://img.shields.io/github/package-json/v/JhonatanBergmann/Bate-Papo" />
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JhonatanBergmann/Bate-Papo" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/JhonatanBergmann/Bate-Papo" />
+<img alt="Github License" src="https://img.shields.io/github/license/JhonatanBergmann/Bate-Papo" />
+</p>
+
+<p align="center">
   <img src="assets/imgs/gif1.gif" alt="Demo" >
   <img src="assets/imgs/gif2.gif" alt="Demo" >
 </p>

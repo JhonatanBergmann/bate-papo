@@ -7,6 +7,9 @@
   <br>
 </h1>
 
+## > Status do Projeto: Em desenvolvimento :warning:
+...
+
 <br>
 
 <p align="center">
@@ -21,13 +24,11 @@
   <img src="assets/imgs/gif2.gif" alt="Demo" >
 </p>
 
-## > Status do Projeto: Em desenvolvimento :warning:
-...
-
 ## 🛠 Tecnologias
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
 - [Node](https://nodejs.org/en/)
+<br/>-
 - [firebase](https://firebase.google.com/?hl=pt-br)
 - [react-native-router-flux](https://github.com/aksonov/react-native-router-flux)
 - [react-native-gifted-chat](https://www.npmjs.com/package/react-native-responsive-screen)

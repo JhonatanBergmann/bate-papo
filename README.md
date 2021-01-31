@@ -10,6 +10,10 @@
 ## > Status do Projeto: Em desenvolvimento :warning:
 ...
 
+## 📅 Sobre
+
+Aplicativo de Bate-Papo com diversas salas com assuntos (temas) diferentes.
+
 <br>
 
 <p align="center">

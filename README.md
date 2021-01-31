@@ -10,10 +10,6 @@
 ## > Status do Projeto: Em desenvolvimento :warning:
 ...
 
-## 📅 Sobre
-
-Aplicativo de Bate-Papo com diversas salas com assuntos (temas) diferentes.
-
 <br>
 
 <p align="center">
@@ -27,6 +23,10 @@ Aplicativo de Bate-Papo com diversas salas com assuntos (temas) diferentes.
   <img src="assets/imgs/gif1.gif" alt="Demo" >
   <img src="assets/imgs/gif2.gif" alt="Demo" >
 </p>
+
+## 📅 Sobre
+
+Aplicativo de Bate-Papo com diversas salas com assuntos (temas) diferentes.
 
 ## 🛠 Tecnologias
 - [React Native](https://facebook.github.io/react-native/)

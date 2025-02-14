@@ -50,4 +50,4 @@ To install and run the project locally, follow these steps:
 
 ## 📝 License
 
-[MIT © Jhonatan Bergmann](https://github.com/jhonbergmann/bate-papo/blob/main/LICENSE)
+[MIT © Jhonatan Bergmann](https://github.com/jhonbergmann/bate-papo/blob/master/LICENSE)

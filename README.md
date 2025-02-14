@@ -1,79 +1,53 @@
+
 <h1 align="center">
-  <img src="android/app/src/main/res/drawable/iconsplash.png" width="200" height="200" alt="icon" >
-  <br>
-  Bate-Papo
-  <br>
-  💬
-  <br>
+  <img src="android/app/src/main/res/drawable/iconsplash.png" width="100" alt="logo" >
 </h1>
 
-## > Status do Projeto: Em desenvolvimento :warning:
-...
+Project Status: In Development :warning:
+
+<p align="center">
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/jhonbergmann/bate-papo" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/jhonbergmann/bate-papo" />
+</p>
 
 <br>
 
 <p align="center">
-<img alt="GitHub Package.json Version" src="https://img.shields.io/github/package-json/v/JhonatanBergmann/Bate-Papo" />
-<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JhonatanBergmann/Bate-Papo" />
-<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/JhonatanBergmann/Bate-Papo" />
-<img alt="Github License" src="https://img.shields.io/github/license/JhonatanBergmann/Bate-Papo" />
+  💬 Chat application with several rooms with different subjects (themes).
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/imgs/gif1.gif" width="45%" alt="" />
+  <img src="assets/imgs/gif2.gif" width="45%" alt="" />
 </p>
 
 <p align="center">
-  <img src="assets/imgs/gif1.gif" alt="Demo" >
-  <img src="assets/imgs/gif2.gif" alt="Demo" >
+  <img src="docs/assets/screenshot-four.png" width="100%" alt="" />
 </p>
 
-## 📅 Sobre
+## 📦 Tech Stack
 
-Aplicativo de Bate-Papo com diversas salas com assuntos (temas) diferentes.
+- React Native
 
-## 🛠 Tecnologias
-- [React Native](https://facebook.github.io/react-native/)
-- [Javascript](https://devdocs.io/javascript/)
-- [Node](https://nodejs.org/en/)
-<br/>-
-- [firebase](https://firebase.google.com/?hl=pt-br)
-- [react-native-router-flux](https://github.com/aksonov/react-native-router-flux)
-- [react-native-gifted-chat](https://www.npmjs.com/package/react-native-responsive-screen)
-- [react-native-gesture-handler](https://github.com/FaridSafi/react-native-gifted-chat)
-- [react-native-screens](https://github.com/software-mansion/react-native-screens)
-- [react-native-responsive-screen](https://www.npmjs.com/package/react-native-responsive-screen)
+[check in package.json](/package.json)
 
-## 📱 Executando 
+## 🔩 Installation
 
-Para executar o projeto é necessário que você tenha o ambiente React Native configurado, você pode seguir esse [GUIA](https://reactnative.dev/docs/environment-setup) para tal.
+To install and run the project locally, follow these steps:
 
-Depois de configurar o ambiente, basta fazer o clone do projeto:
+1. Install [**Yarn**](https://yarnpkg.com/) on your computer
+1. Clone the repository `git clone https://github.com/jhonbergmann/bate-papo.git`
+1. Navigate to the project directory: `cd bate-papo`
+1. Install the dependencies: `yarn install`
 
-```sh
-git clone https://github.com/JhonatanBergmann/bate-papo.git
-```
+## ⚙️ Usage
 
-Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
+1. Start the development server: `yarn dev`
+1. To run on android: `yarn android`
+1. To run on ios: `yarn ios`
 
-```sh
-yarn install
-```
-ou
-```sh
-npm install
-```
+## 📝 License
 
-Em seguida execute o comando referente a plataforma ao qual deseja executar:
-
-Android:
-
-```sh
-react-native run-android
-```
-
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
- Feito com 💜 by Jhonatan Bergmann
-</p>
+[MIT © Jhonatan Bergmann](https://github.com/jhonbergmann/bate-papo/blob/main/LICENSE)
